@@ -1,0 +1,80 @@
+.station-name, .station-frequency {
+    width: 240px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+    color: #a6afc0;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    border-bottom: 1px solid #44444e;
+}
+
+.station-name:hover, .station-frequency:hover {
+    color: #fff;
+}
+
+.station-frequency {
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 0;
+    font-weight: 500;
+    text-align: right;
+}
+
+.station-name.removeBorder {
+    border-bottom: none;
+}
+
+.station-frequency.removeBorder {
+    border-bottom: none;
+}
+
+.station-contentContainer {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.station-circleButton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #a5aebf;
+    border-radius: 20px;
+    display: inline-block;
+    color: #a5aebf;
+    text-align: center;
+    line-height: 24px;
+    font-size: 36px;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.station-circleButton:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.station-circleButton:active {
+    color: #a5aebf;
+}
+
+.station-image {
+    display: inline-block;
+    margin: 10px 45px 10px 45px;
+    border: 2px solid #a5aebf;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+}
+
+.station-image img {
+    display: inline-block;
+    width: 140px;
+    max-width: 140px;
+}
