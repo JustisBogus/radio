@@ -45,7 +45,9 @@ class Stations extends Component {
         return (
             <div className="station-component">
                 {content}
-                <div onClick={station.id === selectedStation.id 
+                <div 
+                    className="station-container" 
+                    onClick={station.id === selectedStation.id 
                     ? () => this.props.unselectStation()
                     : () => this.props.selectStation(station.id, station.name)}>
                     <div className={classListName.join(' ')}>
